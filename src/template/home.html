@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>Emails</h2>
+
+  <textarea name="message" id="myInput" rows="25" cols="100">Enter Email to classify.</textarea>
+  <button id="myBtn" onclick="email_classify()">Validate</button>
+
+<script>
+
+function email_classify(){
+
+var input = document.getElementById("myInput");
+var txt = input.value
+
+if(txt.length == 0){
+alert("Enter Email to classify.")
+return;
+}
+
+
+alert(txt)
+
+}
+</script>
+
+</body>
+</html>
