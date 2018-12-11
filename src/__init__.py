@@ -1,11 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 # import os
 # print(os.getcwd())
 
-import data.make_dataset
-import models.train_model
+from models.predict_model import Predict_Model
 
-trained_model = model_train_MNB()
+predictModel = Predict_Model()
 
 app=Flask(__name__,  template_folder='template')
 @app.route("/")
@@ -14,10 +13,10 @@ def home():
 
 
 #Email classification post data    
-@app.route('/VRNMaster',methods = ['POST'])
-def VRNMasterList():
+@app.route('/EmailClassifySet',methods = ['POST'])
+def EmailClassify():
     if request.method == 'POST':
-        return self.VRNHeader.createVRN(request.data)
+        return predictModel.predict_classification(request.data)
     else:
         return ''
 
