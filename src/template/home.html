@@ -8,31 +8,31 @@ body {
 
 h1 {
   text-align: center;
-  right: 350px;
+  right: 30%;
   display: inline;
   position: absolute;
-  top: 150px;
+  top: 20%;
 }
 
 button {
   text-align: center;
-  right: 850px;
+  right: 50%;
   display: inline;
   position: absolute;
-  top: 150px;
+  top: 20%;
+}
+
+table {
+ text-align: center;
+ right: 30%;
+  display: inline;
+  position: absolute;
+  top: 30%;
 }
 
 </style>
 
-</head>
-<body>
 
-
-<h2>Email</h2>
-
-  <textarea name="message" id="myInput" rows="25" cols="100">Enter Email</textarea>
-  <button id="myBtn" onclick="email_classify()">Validate</button>
-  <h1 id="validated_mail"></h1>
 <script>
 
 function email_classify(){
@@ -56,12 +56,20 @@ xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 xmlhttp.onreadystatechange = function() {//Call a function when the state changes.
     if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
           var mal = document.getElementById("validated_mail");
-          mal.innerText = JSON.parse(xmlhttp.responseText).message;
+          var entityList = document.getElementById("tracklist");
+          var response = JSON.parse(xmlhttp.responseText)
+          mal.innerText = response.message;
+          var entity = response.entity;
+          entityList.innerText = "";
+          for(var i=0;i<entity.length;i++){
+          entityList.innerHTML +=  '<tr><td><label>' + entity[i].label + ': </label></td><td><label>' + entity[i].text + ' </label></td></tr><br>';
+          }
 
      //   alert("success");
     }else if(xmlhttp.readyState == 4 && xmlhttp.status != 200){
     //	alert("failure");
     mal.innerText = "";
+    entityList.innerText = "";
     }
 }
 xmlhttp.send(data);
@@ -69,6 +77,21 @@ xmlhttp.send(data);
 
 }
 </script>
+
+</head>
+<body>
+
+
+<h2>Email</h2>
+
+  <textarea name="message" id="myInput" rows="25" cols="100">Enter Email</textarea>
+  <button id="myBtn" onclick="email_classify()">Validate</button>
+  <h1 id="validated_mail"></h1>
+
+
+   <table id="tracklist">
+
+                   </table>
 
 </body>
 </html>
