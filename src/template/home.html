@@ -62,7 +62,7 @@ xmlhttp.onreadystatechange = function() {//Call a function when the state change
           var entity = response.entity;
           entityList.innerText = "";
           for(var i=0;i<entity.length;i++){
-          entityList.innerHTML +=  '<tr><td><label>' + entity[i].label + ': </label></td><td><label>' + entity[i].text + ' </label></td></tr><br>';
+          entityList.innerHTML +=  '<tr><td><label>' + entity[i].label + ' </label></td><td><label>:</label></td><td><label>' + entity[i].text + ' </label></td></tr><br>';
           }
 
      //   alert("success");
