@@ -10,7 +10,7 @@ class Predict_Model:
     def __init__(self):
         self.train_model_data = Train_Model()
         self.transformData = self.train_model_data.transformData
-        self.nlp = spacy.load("en_core_web_md")
+        self.nlp = spacy.load("en_core_web_lg")
         self.entities = {"GPE": "Location",
                     "ORG": "organization",
                     "PERSON": "Name",
@@ -39,7 +39,7 @@ class Predict_Model:
             label_ = token.label_
             label = self.entities[label_] if label_ in self.entities else label_
             if len(wrd) > 0:
-                entityData.append({"label":token.label_, "text":token.text.strip()})
+                entityData.append({"label":label.upper(), "text":token.text.strip()})
 
             #     if len(wrd) > 0 and label_ in entities and ((label_ == "PERSON" and wrd.replace(' ','').isalpha() and stemmer(wrd) == wrd.lower()) or label_ != "PERSON"):
             #         entityDtl.append({"label":token.label_, "text":token.text.strip()})

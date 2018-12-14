@@ -1,0 +1,198 @@
+,Entity,end_char,label,start_char,text,Target
+0,Rohit,10,PERSON,5,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+1,"
+ 
+",14,PERSON,11,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",FALSE
+2,02 Executive room,91,PRODUCT,75,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+3,Taj Gateway Ganges,114,ORG,96,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+4,24/26,125,CARDINAL,120,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",FALSE
+5,18-Dec,139,DATE,126,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",FALSE
+6,24/26 December 2018,139,DATE,120,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+7,two nights,154,DATE,144,"Dear Rohit,
+ 
+As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+8,Agnes,8,PERSON,3,"Hi Agnes,
+ 
+I have not received a response to this email as yet.",TRUE
+9,"
+ 
+",12,PERSON,9,"Hi Agnes,
+ 
+I have not received a response to this email as yet.",FALSE
+10,Hotel/Resort,102,FAC,90,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below:
+Serial number
+:
+TEHP/18/12809
+Name
+:
+Arun Gadamshetty
+P No.
+:
+153021
+Department
+:
+Spares Manufacturing Department
+",TRUE
+11,TEHP/18/12809,161,CARDINAL,161,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below:
+Serial number
+:
+TEHP/18/12809
+Name
+:
+Arun Gadamshetty
+P No.
+:
+153021
+Department
+:
+Spares Manufacturing Department
+",TRUE
+12,"
+Arun Gadamshetty",184,PERSON,167,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below:
+Serial number
+:
+TEHP/18/12809
+Name
+:
+Arun Gadamshetty
+P No.
+:
+153021
+Department
+:
+Spares Manufacturing Department
+",TRUE
+13,"
+Spares Manufacturing Department",244,ORG,212,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below:
+Serial number
+:
+TEHP/18/12809
+Name
+:
+Arun Gadamshetty
+P No.
+:
+153021
+Department
+:
+Spares Manufacturing Department
+",TRUE
+14,"
+Vivanta",39,PERSON,31,"Contact No
+:
+8092084556
+Place
+:
+Vivanta by Taj - Madikeri Coorg, Coorg
+Room Type
+:
+Superior Charm
+Check",TRUE
+15,Taj - Madikeri,57,ORG,43,"Contact No
+:
+8092084556
+Place
+:
+Vivanta by Taj - Madikeri Coorg, Coorg
+Room Type
+:
+Superior Charm
+Check",TRUE
+16,Coorg,63,GPE,58,"Contact No
+:
+8092084556
+Place
+:
+Vivanta by Taj - Madikeri Coorg, Coorg
+Room Type
+:
+Superior Charm
+Check",TRUE
+17,"Coorg
+Room Type",80,ORG,65,"Contact No
+:
+8092084556
+Place
+:
+Vivanta by Taj - Madikeri Coorg, Coorg
+Room Type
+:
+Superior Charm
+Check",TRUE
+18,10-Dec-18,26,DATE,15,"In Date-Time
+:
+10 Dec 2018 02:00 PM
+Check Out",TRUE
+19,"02:00 PM
+",36,TIME,27,"In Date-Time
+:
+10 Dec 2018 02:00 PM
+Check Out",TRUE
+20,12-Dec-18,23,DATE,12,"Date-Time
+:
+12 Dec 2018 12:00 PM
+",TRUE
+21,"12:00 PM
+",33,TIME,24,"Date-Time
+:
+12 Dec 2018 12:00 PM
+",TRUE
+22,1,12,CARDINAL,11,"No of rooms
+:
+1
+Comments by requester
+:
+For Honeymoon trip
+
+
+Traveller Details:
+1. 
+",TRUE
+23,Honeymoon trip,58,WORK_OF_ART,44,"No of rooms
+:
+1
+Comments by requester
+:
+For Honeymoon trip
+
+
+Traveller Details:
+1. 
+",TRUE
+24,Arun Gadamshetty,23,PERSON,7,"Name
+:
+Arun Gadamshetty
+
+",TRUE
+25,"SHWETA GADAMSHETTY
+
+",18,GPE,0,"SHWETA GADAMSHETTY
+
+",TRUE
+26,GADAMSHETTY,18,GPE,7,"SHWETA GADAMSHETTY
+
+",FALSE
+27,"
+
+",20,CARDINAL,18,"SHWETA GADAMSHETTY
+
+",FALSE
+28,"
+
+",73,PERSON,71,"No bills will be entertained by us until it bears the guest signature. 
+
+",FALSE
