@@ -8,6 +8,7 @@ import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 import string
+import nltk
 from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -41,17 +42,21 @@ class DataTransform:
         
         words_to_exclude = set(stopwords.words('english'))
         exclude = set(string.punctuation)
+        
+        # removing singular and plural nouns 18_12 and added stemming
+        tagged_sentence = nltk.tag.pos_tag(doc.split())
+        edited_sentence = ' '.join([word for word,tag in tagged_sentence if tag != 'NNP' and tag != 'NNPS'])
 
-        word_free = " ".join([i for i in doc.lower().split() if i not in words_to_exclude])
+        word_free = " ".join([i for i in edited_sentence.lower().split() if i not in words_to_exclude])
         punc_free = ''.join(ch for ch in word_free if ch not in exclude)
         alpha_free = " ".join(word for word in punc_free.split() if word.isalpha())
         stemmer = SnowballStemmer("english").stem
         stem_free = " ".join(stemmer(stem) for stem in alpha_free.split())
         lemma = WordNetLemmatizer()
-        normalized = " ".join(lemma.lemmatize(word) for word in alpha_free.split())
+        normalized = " ".join(lemma.lemmatize(word) for word in stem_free.split())
 
         return normalized
-
+    
 
      def tarnsforming_raw_text(self):
         # Import the email modules we'll need
@@ -80,7 +85,7 @@ class DataTransform:
                             "date": msg.date,
                             #                     "sent":msg["Sent"],
                             #                     "importance":msg["Importance"],
-                            "content": msg.body,
+                            "content": raw_data,
                             "class_to_exec": email_type,
                         })
 

@@ -1,0 +1,117 @@
+,Entity,end_char,label,start_char,text,Target
+0,Rohit,10,PERSON,5,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+2,2,77,CARDINAL,75,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+3,Taj Gateway Ganges,114,ORG,96,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+4,24/26,125,CARDINAL,120,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+5,Dec-18,139,DATE,126,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+6,two nights,154,DATE,144,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+7,Agnes,8,PERSON,3,"Hi Agnes,   I have not received a response to this email as yet.",TRUE
+9,Hotel/Resort,102,FAC,90,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+10,TEHP/18/12809,160,ORG,147,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+11,Arun Gadamshetty P,186,PERSON,168,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+12,153021,199,CARDINAL,193,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+13,Department : Spares Manufacturing Department,244,ORG,200,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+14,Vivanta,39,GPE,32,"Contact No : 8092084556 Place : Vivanta by Taj - Madikeri Coorg, Coorg Room Type : Superior Charm Check",TRUE
+15,Taj - Madikeri,57,ORG,43,"Contact No : 8092084556 Place : Vivanta by Taj - Madikeri Coorg, Coorg Room Type : Superior Charm Check",TRUE
+16,Coorg,63,GPE,58,"Contact No : 8092084556 Place : Vivanta by Taj - Madikeri Coorg, Coorg Room Type : Superior Charm Check",TRUE
+17,Coorg Room Type,80,ORG,65,"Contact No : 8092084556 Place : Vivanta by Taj - Madikeri Coorg, Coorg Room Type : Superior Charm Check",TRUE
+18,10-Dec-18,26,DATE,15,In Date-Time : 10 Dec 2018 02:00 PM Check Out,TRUE
+19,12-Dec-18,23,DATE,12,Date-Time : 12 Dec 2018 12:00 PM ,TRUE
+20,12:00 PM,32,TIME,24,Date-Time : 12 Dec 2018 12:00 PM ,TRUE
+21,1,15,CARDINAL,14,No of rooms : 1 Comments by requester : For Honeymoon trip   Traveller Details: 1.  ,TRUE
+22,Honeymoon,53,GPE,44,No of rooms : 1 Comments by requester : For Honeymoon trip   Traveller Details: 1.  ,TRUE
+23,  Traveller,70,ORG,59,No of rooms : 1 Comments by requester : For Honeymoon trip   Traveller Details: 1.  ,TRUE
+24,1,81,CARDINAL,80,No of rooms : 1 Comments by requester : For Honeymoon trip   Traveller Details: 1.  ,TRUE
+25,Arun Gadamshetty,23,PERSON,7,Name : Arun Gadamshetty  ,TRUE
+26,34 years 2,16,DATE,6,Age : 34 years 2.  ,TRUE
+27,SHWETA,6,GPE,0,SHWETA GADAMSHETTY  ,TRUE
+28,GADAMSHETTY,18,GPE,7,SHWETA GADAMSHETTY  ,TRUE
+29,28 years,33,DATE,25,"Relation : Spouse  Age : 28 years   As agreed upon, other than the complimentary, all other expenses will be settled directly by our guests.   ",TRUE
+30,Gampa ji,13,PERSON,5,"Dear Gampa ji,   Greetings of the day !   ",TRUE
+31,  Greetings,26,ORG,15,"Dear Gampa ji,   Greetings of the day !   ",TRUE
+32,Lerner Group,12,ORG,0,Lerner Group,TRUE
+33,6,3,CARDINAL,2,x 6 pax    Please confirm 3 double room,TRUE
+34,3,27,CARDINAL,26,x 6 pax    Please confirm 3 double room,TRUE
+35,Taj Mahal,28,PERSON,19,"CPAI at your hotel Taj Mahal, New Delhi from 24/26 Dec 2018.  ",TRUE
+36,New Delhi,39,GPE,30,"CPAI at your hotel Taj Mahal, New Delhi from 24/26 Dec 2018.  ",TRUE
+37,24/26 Dec 2018,59,DATE,45,"CPAI at your hotel Taj Mahal, New Delhi from 24/26 Dec 2018.  ",TRUE
+38,Athalye,16,PERSON,9,"Dear Mr. Athalye,   As per your request, I have cancelled the reservation 75699SB015463",TRUE
+40,Uday Athalye,25,PERSON,13,favoring Mr. Uday Athalye at Taj Chandigarh.   ,TRUE
+41,Taj,32,GPE,29,favoring Mr. Uday Athalye at Taj Chandigarh.   ,TRUE
+42,Chandigarh,43,GPE,33,favoring Mr. Uday Athalye at Taj Chandigarh.   ,TRUE
+43,75699SB021382X,35,CARDINAL,21,Cancellation Number: 75699SB021382X   ,TRUE
+44,"the Taj Hotels, Resorts & Palaces",60,FAC,27,"We hope to see you soon at the Taj Hotels, Resorts & Palaces.    ",TRUE
+46,Star,83,ORG,79,"Dear Team,   Please cancel the attached booking without any charges as per the Star policy",TRUE
+47,the Taj Mahal,55,LOC,42,"Dear Team Inner Circle, I plan to stay at the Taj Mahal in Mumbai on the night of November 30. ",TRUE
+48,Mumbai,65,GPE,59,"Dear Team Inner Circle, I plan to stay at the Taj Mahal in Mumbai on the night of November 30. ",TRUE
+49,the night of November 30,93,TIME,69,"Dear Team Inner Circle, I plan to stay at the Taj Mahal in Mumbai on the night of November 30. ",TRUE
+50,Mumbai,29,GPE,23,I would be attending a Mumbai 2.0 programme at the hotel on December 1 (invitation attached). ,TRUE
+51,2,33,CARDINAL,30,I would be attending a Mumbai 2.0 programme at the hotel on December 1 (invitation attached). ,TRUE
+52,1-Dec,70,DATE,60,I would be attending a Mumbai 2.0 programme at the hotel on December 1 (invitation attached). ,TRUE
+53,Inner Circle,77,LOC,65,I would request you to check if I could redeem a Room Stay on my Inner Circle card (101010203753) for the same.,TRUE
+54,1.0101E+11,96,DATE,84,I would request you to check if I could redeem a Room Stay on my Inner Circle card (101010203753) for the same.,TRUE
+56,ABB,55,ORG,52,"Hi,   Your hotel was recommended to me by the local ABB office in Bangalore. ",TRUE
+57,Bangalore,75,GPE,66,"Hi,   Your hotel was recommended to me by the local ABB office in Bangalore. ",TRUE
+58,Monday 26 November to Thursday 29 November,80,DATE,38,"I want to check room availability for Monday 26 November to Thursday 29 November, for 1 person. ",TRUE
+59,1,87,CARDINAL,86,"I want to check room availability for Monday 26 November to Thursday 29 November, for 1 person. ",TRUE
+60,Airport Limousine,40,ORG,23,I\u2019m also after an Airport Limousine transfer from Bengaluru Airport.   ,TRUE
+61,Bengaluru Airport,72,FAC,55,I\u2019m also after an Airport Limousine transfer from Bengaluru Airport.   ,TRUE
+63,61 428 856,33,MONEY,23,I\u2019m available on +61 428 856 843 if you want to call me.   ,TRUE
+64,Dear Reservation Center,23,ORG,0,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+65,Good Day,33,DATE,25,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+67,Dubai,114,GPE,109,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+68,1,120,CARDINAL,119,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+69,28 November \u2013,149,DATE,131,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+70,1-Dec-18,166,DATE,150,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+71,3,173,CARDINAL,172,"Dear Reservation Center, Good Day,   I would like to ask if you have an airline staff rates at your hotel in Dubai for 1 room from 28 November \u2013 01 December 2018 for (3 Adults)",TRUE
+72,4,48,CARDINAL,47,"Hi - Looking for accommodation for a family of 4 from 12th Jan, 2019 to 15th Jan, 2019.",TRUE
+73,"12th Jan,",63,DATE,54,"Hi - Looking for accommodation for a family of 4 from 12th Jan, 2019 to 15th Jan, 2019.",TRUE
+74,2019,68,DATE,64,"Hi - Looking for accommodation for a family of 4 from 12th Jan, 2019 to 15th Jan, 2019.",TRUE
+75,15th,76,ORDINAL,72,"Hi - Looking for accommodation for a family of 4 from 12th Jan, 2019 to 15th Jan, 2019.",TRUE
+76,2019,86,DATE,82,"Hi - Looking for accommodation for a family of 4 from 12th Jan, 2019 to 15th Jan, 2019.",TRUE
+77,2,1,CARDINAL,0,2 adults and 2 kids (16 and 9).   ,TRUE
+78,2,14,CARDINAL,13,2 adults and 2 kids (16 and 9).   ,TRUE
+79,16,23,QUANTITY,21,2 adults and 2 kids (16 and 9).   ,TRUE
+80,9,29,DATE,28,2 adults and 2 kids (16 and 9).   ,TRUE
+82,Dear Reservation Dept,21,ORG,0,"Dear Reservation Dept,   Greetings from Kuala Lumpur!  ",TRUE
+83,  Greetings,34,ORG,23,"Dear Reservation Dept,   Greetings from Kuala Lumpur!  ",TRUE
+84,Kuala Lumpur,52,GPE,40,"Dear Reservation Dept,   Greetings from Kuala Lumpur!  ",TRUE
+86,1,128,CARDINAL,127,We would like to receive a quote for the following details:   a)      DELUXE DELIGHT ROOM QUEEN BED WITH BREAKFAST  -          1 room   Check in  \u2013 09 DECEMBER 2018    Check out \u2013 11 DECEMBER 2018      ,TRUE
+88,9-Dec,164,DATE,153,We would like to receive a quote for the following details:   a)      DELUXE DELIGHT ROOM QUEEN BED WITH BREAKFAST  -          1 room   Check in  \u2013 09 DECEMBER 2018    Check out \u2013 11 DECEMBER 2018      ,TRUE
+89,2018,169,DATE,165,We would like to receive a quote for the following details:   a)      DELUXE DELIGHT ROOM QUEEN BED WITH BREAKFAST  -          1 room   Check in  \u2013 09 DECEMBER 2018    Check out \u2013 11 DECEMBER 2018      ,TRUE
+90,11,192,CARDINAL,190,We would like to receive a quote for the following details:   a)      DELUXE DELIGHT ROOM QUEEN BED WITH BREAKFAST  -          1 room   Check in  \u2013 09 DECEMBER 2018    Check out \u2013 11 DECEMBER 2018      ,TRUE
+91,Dec-18,206,DATE,193,We would like to receive a quote for the following details:   a)      DELUXE DELIGHT ROOM QUEEN BED WITH BREAKFAST  -          1 room   Check in  \u2013 09 DECEMBER 2018    Check out \u2013 11 DECEMBER 2018      ,TRUE
+92,Charunya,14,PERSON,6,"Dear  Charunya,    Thank you for your email.",TRUE
+93,4,55,CARDINAL,54,I am not sure the ones you sent would fit a family of 4.    ,TRUE
+94,two,67,CARDINAL,64,When you say Queen bed or Kind bed is it one bed in the room or two?,TRUE
+96,3,66,CARDINAL,65,"Dear Shaoib,   We would like to proceed with the reservations of 3 superior rooms with King bed.    ",TRUE
+97,2.30am,52,GPE,46,- Could the hotel arrange airport transfer at 2.30am?  -,TRUE
+98,2.30am,26,GPE,20,"As we will leave at 2.30am we will not have breakfast, do you have a rate that does not include breakfast?",TRUE
+100,the Taj Hotel,18,FAC,5,Hi   the Taj Hotel I am referring to is in Dubai.,TRUE
+101,Dubai,48,GPE,43,Hi   the Taj Hotel I am referring to is in Dubai.,TRUE
+102,Gaurav,11,PERSON,5,"Dear Gaurav,   Would like to know a package for 2 nights in Taj Agauda starting 17th April 2019 to 19th April 2019.",TRUE
+104,2 nights,56,DATE,48,"Dear Gaurav,   Would like to know a package for 2 nights in Taj Agauda starting 17th April 2019 to 19th April 2019.",TRUE
+105,Taj Agauda,70,PERSON,60,"Dear Gaurav,   Would like to know a package for 2 nights in Taj Agauda starting 17th April 2019 to 19th April 2019.",TRUE
+106,17th April 2019,95,DATE,80,"Dear Gaurav,   Would like to know a package for 2 nights in Taj Agauda starting 17th April 2019 to 19th April 2019.",TRUE
+107,April 2019,114,DATE,104,"Dear Gaurav,   Would like to know a package for 2 nights in Taj Agauda starting 17th April 2019 to 19th April 2019.",TRUE
+108,Mahesh,11,PERSON,5,"Dear Mahesh,   Many thanks for your e-mail.   ",TRUE
+110,Hotel,9,ORG,4,The Hotel is The Taj Cape Town.,TRUE
+111,The Taj Cape Town,30,FAC,13,The Hotel is The Taj Cape Town.,TRUE
+112,  I,8,ORG,5,"Sir,   I am unable to making payment on link provided by you for the payment of Invoice no.",TRUE
+113,12646587,8,DATE,0,12646587,TRUE
+114,75676SB039041,13,CARDINAL,0,75676SB039041     ,TRUE
+115,Taj,42,PERSON,39,Sir/Madam     Re: change booking under Taj inner circle membership:,TRUE
+116,1.01015E+11,12,CARDINAL,0,1.01015E+11,TRUE
+117,Taj Palace Hotel,37,FAC,21,"I booked  to stay at Taj Palace Hotel from 17/12/2018 for two nights, then we go to Taj Swarna in Amritsar and following that in Taj Fort Aguada Goa.",TRUE
+118,17/12/2018,53,DATE,43,"I booked  to stay at Taj Palace Hotel from 17/12/2018 for two nights, then we go to Taj Swarna in Amritsar and following that in Taj Fort Aguada Goa.",TRUE
+119,two nights,68,DATE,58,"I booked  to stay at Taj Palace Hotel from 17/12/2018 for two nights, then we go to Taj Swarna in Amritsar and following that in Taj Fort Aguada Goa.",TRUE
+120,Taj Swarna,94,PERSON,84,"I booked  to stay at Taj Palace Hotel from 17/12/2018 for two nights, then we go to Taj Swarna in Amritsar and following that in Taj Fort Aguada Goa.",TRUE
+121,Amritsar,106,GPE,98,"I booked  to stay at Taj Palace Hotel from 17/12/2018 for two nights, then we go to Taj Swarna in Amritsar and following that in Taj Fort Aguada Goa.",TRUE
+122,Taj Fort Aguada Goa,148,FAC,129,"I booked  to stay at Taj Palace Hotel from 17/12/2018 for two nights, then we go to Taj Swarna in Amritsar and following that in Taj Fort Aguada Goa.",TRUE
+124,Shevawn Barder,126,PERSON,112,Could you please send me new credit card authorization Letter along with the payment link for reservation under Shevawn Barder. ,TRUE
+125,CRS-75764SB021202,21,PERSON,4,No: CRS-75764SB021202,TRUE
+126,Sunday,9,DATE,3,"On Sunday, 18 November 2018 7:13 PM, chitti babu <adhityatanningco@yahoo.co.in> wrote:   Sir , Kindly send me the bank details of HOTEL TAJ BANJARA to transfer the payment to your account online. ",TRUE
+127,18,13,CARDINAL,11,"On Sunday, 18 November 2018 7:13 PM, chitti babu <adhityatanningco@yahoo.co.in> wrote:   Sir , Kindly send me the bank details of HOTEL TAJ BANJARA to transfer the payment to your account online. ",TRUE
+128,Nov-18,27,DATE,14,"On Sunday, 18 November 2018 7:13 PM, chitti babu <adhityatanningco@yahoo.co.in> wrote:   Sir , Kindly send me the bank details of HOTEL TAJ BANJARA to transfer the payment to your account online. ",TRUE
+129,7:13 PM,35,TIME,28,"On Sunday, 18 November 2018 7:13 PM, chitti babu <adhityatanningco@yahoo.co.in> wrote:   Sir , Kindly send me the bank details of HOTEL TAJ BANJARA to transfer the payment to your account online. ",TRUE
+130,  Sir,92,ORG,87,"On Sunday, 18 November 2018 7:13 PM, chitti babu <adhityatanningco@yahoo.co.in> wrote:   Sir , Kindly send me the bank details of HOTEL TAJ BANJARA to transfer the payment to your account online. ",TRUE

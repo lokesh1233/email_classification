@@ -1,0 +1,121 @@
+{
+    "date_pattern" : [{
+            "example": ["12th to 14th March 2019"],
+            "pattern": [{"SHAPE": "ddxx"},
+                        {"LOWER": "to"},
+                        {"SHAPE": "ddxx"},
+                        {"IS_ALPHA": true},
+                        {"IS_DIGIT": true}],
+            "label": "MY_DATE"
+        },{
+            "example": ["September 30, 1971"],
+            "pattern": [{"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}, 
+                        {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["30 September, 1971"], 
+            "pattern": [{"ENT_TYPE": "DATE", "IS_DIGIT": true}, 
+                        {"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
+                        {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1st day of September, 1971"], 
+            "pattern": [{"SHAPE": "dxx"}, 
+                        {"LOWER": "day"}, 
+                        {"LOWER": "of"}, 
+                        {"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
+                        { "ORTH": ",", "OP": "*"}, 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["30th day of September, 1971"], 
+            "pattern": [{"SHAPE": "ddxx"}, 
+                        {"LOWER": "day"}, 
+                        {"LOWER": "of"}, 
+                        {"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
+                        { "ORTH": ",", "OP": "*"}, 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["28th December, 2018"], 
+            "pattern": [{"SHAPE": "ddxx"}, 
+                        {"IS_ALPHA": true},
+                        {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
+                        { "IS_DIGIT": true}], "label": "MY_DATE"
+        },{
+            "example": ["December 21st, 2018"], 
+            "pattern": [{"IS_ALPHA": true}, 
+                        {"SHAPE": "ddxx"}, 
+                        {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1/1/1971"], 
+            "pattern": [{"SHAPE": "d/d/dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10/1/1971"], 
+            "pattern": [{"SHAPE": "dd/d/dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1/10/1971"], 
+            "pattern": [{"SHAPE": "d/dd/dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10/10/1971"], 
+            "pattern": [{"SHAPE": "dd/dd/dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1/1/71"], 
+            "pattern": [{"SHAPE": "d/d/dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10/1/71"], 
+            "pattern": [{"SHAPE": "dd/d/dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1/10/71"], 
+            "pattern": [{"SHAPE": "d/dd/dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10/10/71"], 
+            "pattern": [{"SHAPE": "dd/dd/dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1.1.1971"], 
+            "pattern": [{"SHAPE": "d.d.dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10.1.1971"], 
+            "pattern": [{"SHAPE": "dd.d.dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1.10.1971"], 
+            "pattern": [{"SHAPE": "d.dd.dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10.10.1971"], 
+            "pattern": [{"SHAPE": "dd.dd.dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1.1.71"], 
+            "pattern": [{"SHAPE": "d.d.dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10.1.71"], 
+            "pattern": [{"SHAPE": "dd.d.dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1.10.71"], 
+            "pattern": [{"SHAPE": "d.dd.dd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["10.10.71"], 
+            "pattern": [{"SHAPE": "dd.dd.dd"}], 
+            "label": "MY_DATE"
+        }
+    ]
+}

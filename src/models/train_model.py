@@ -13,6 +13,7 @@ from sklearn.svm import SVC
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
+import sklearn.model_selection as modsel
 
 ## trasnforming custom raw data
 from data.make_dataset import DataTransform
@@ -88,6 +89,7 @@ class Train_Model:
         self.features_train = self.transformData.features_train
         self.labels_train = self.transformData.labels_train
         self.model_train_MNB()
+        self.model_train_GridSearch_LR()
 
 # multinominal naive nayes
     def model_train_MNB(self):
@@ -113,6 +115,18 @@ class Train_Model:
     #     accuracy_score(labels_test,prediction)
     
         return self.lr
+    
+    def model_train_GridSearch_LR(self):
+        ## grid serach CV for tuning hyperparameters
+        param_grid_ = {'C': [1e-5, 1e-3, 1e-1, 1e0, 1e1, 1e2]}
+        self.GSlr = modsel.GridSearchCV(LogisticRegression(), cv=5, param_grid=param_grid_)
+        self.GSlr.fit(self.features_train, self.labels_train)
+#         self.GSlr = LogisticRegression()
+#         self.GSlr.fit(features_train, labels_train)
+    #     prediction = mnb.predict(features_test)
+    #     accuracy_score(labels_test,prediction)
+    
+        return self.GSlr
 
 
 

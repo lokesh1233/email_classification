@@ -1,0 +1,35 @@
+{"label": "DATE", "pattern": [{"lower": "21st December 2018"}]}
+{"label": "DATE", "pattern": [{"lower": "January 2019"}]}
+{"label": "DATE", "pattern": [{"lower": "December 2018"}]}
+{"label": "DATE", "pattern": [{"lower": "January 2019"}]}
+{"label": "DATE", "pattern": [{"lower": "December 2018"}]}
+{"label": "DATE", "pattern": [{"lower": "101015421297     "}]}
+{"label": "DATE", "pattern": [{"lower": "17/12/2018"}]}
+{"label": "DATE", "pattern": [{"lower": "34 years 2"}]}
+{"label": "DATE", "pattern": [{"lower": "28 years"}]}
+{"label": "DATE", "pattern": [{"lower": "Dec 2018"}]}
+{"label": "DATE", "pattern": [{"lower": " \u2013 09 DECEMBER 2018"}]}
+{"label": "DATE", "pattern": [{"lower": "December 2018"}]}
+{"label": "DATE", "pattern": [{"lower": "January 2019"}]}
+{"label": "DATE", "pattern": [{"lower": "November 30"}]}
+{"label": "DATE", "pattern": [{"lower": "December 1"}]}
+{"label": "DATE", "pattern": [{"lower": "101010203753"}]}
+{"label": "DATE", "pattern": [{"lower": "Monday 26 November to Thursday 29 November"}]}
+{"label": "DATE", "pattern": [{"lower": "Good Day"}]}
+{"label": "DATE", "pattern": [{"lower": "November \u2013 01 December 2018"}]}
+{"label": "DATE", "pattern": [{"lower": "12th Jan, 2019 to 15th Jan, 2019"}]}
+{"label": "DATE", "pattern": [{"lower": "17th April 2019"}]}
+{"label": "DATE", "pattern": [{"lower": "19th April 2019"}]}
+{"label": "DATE", "pattern": [{"lower": "12646587"}]}
+
+
+
+[{'ORTH': '12.13.2018', 'LENGTH': 10, 'IS_DIGIT': True, 'IS_PUNCT': True, 'LIKE_NUM': True, 'POS': 'NUM', 'TAG': 'CD', 'SHAPE': 'DD.DD.DDDD', 'ENT_TYPE': 'DATE'}]
+[{'ORTH': '12 13 2018', 'LENGTH': 10, 'IS_DIGIT': True, 'IS_PUNCT': False, 'LIKE_NUM': True, 'POS': 'NUM', 'TAG': 'CD', 'SHAPE': 'DD DD DDDD', 'ENT_TYPE': 'DATE'}]
+[{'ORTH': '12 Dec, 2018', 'IS_DIGIT': True, 'IS_PUNCT': True, 'LIKE_NUM': True,  'SHAPE': 'DD [A-Za-z,] DDDD', 'ENT_TYPE': 'DATE', 'LOWER': '12 dec 2018',  'IS_SPACE': True,}]
+
+//            "example": ["January 2019"],
+//            "pattern": [{"IS_ALPHA": true},
+//                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}],
+//            "label": "MY_DATE"
+//        },{

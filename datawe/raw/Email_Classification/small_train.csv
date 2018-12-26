@@ -1,0 +1,18 @@
+,Entity,end_char,label,start_char,text,Target
+0,Rohit,10,PERSON,5,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+1,2,77,CARDINAL,75,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+2,Taj Gateway Ganges,114,ORG,96,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+3,24/26 December 2018,139,DATE,120,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+4,two nights,154,DATE,144,"Dear Rohit,   As per our conversation a while ago, please book and confirm 02 Executive room at Taj Gateway Ganges from 24/26 December 2018 for two nights.",TRUE
+5,Agnes,8,PERSON,3,"Hi Agnes,   I have not received a response to this email as yet.",TRUE
+6,Hotel/Resort,102,FAC,90,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+7,TEHP/18/12809,160,ORG,147,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+8,Arun Gadamshetty,184,PERSON,168,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+9,153021,199,CARDINAL,193,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+10,Department : Spares Manufacturing Department,244,ORG,200,"As per corporate holiday plan, kindly arrange to book the following accommodation in your Hotel/Resort as per details given below: Serial number : TEHP/18/12809 Name : Arun Gadamshetty P No. : 153021 Department : Spares Manufacturing Department ",TRUE
+11,lake palace,36,LOC,25,"i want to book a room at lake palace. Check in date is - 31st December 2018, check out - 1st January 2019",TRUE
+12,31st December 2018,75,DATE,57,"i want to book a room at lake palace. Check in date is - 31st December 2018, check out - 1st January 2019",TRUE
+13,1st January 2019,105,DATE,89,"i want to book a room at lake palace. Check in date is - 31st december 2018, check out - 1st january 2019",TRUE
+14,31/12/2018,38,DATE,28,"check in and check out date 31/12/2018, 1/1/2019",TRUE
+15,1/1/2019,48,DATE,40,"check in and check out date 31/12/2018, 1/1/2019",TRUE
+16,8th January 2019,105,DATE,89,"i want to book a room at lake palace. Check in date is - 20th december 2018, check out - 8th January 2019",TRUE
