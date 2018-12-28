@@ -2,24 +2,24 @@
     "date_pattern" : [{
             "example": ["12th to 14th March 2019"],
             "pattern": [{"SHAPE": "ddxx"},
-                        {"LOWER": "to"},
+                        {"LOWER": "to",  "IS_ALPHA": true},
                         {"SHAPE": "ddxx"},
                         {"IS_ALPHA": true},
-                        {"IS_DIGIT": true}],
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true, "shape":"dddd"}],
             "label": "MY_DATE"
         },{
             "example": ["September 30, 1971"],
             "pattern": [{"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
                         {"ENT_TYPE": "DATE", "IS_DIGIT": true}, 
                         {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
-                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true, "shape":"dddd"}],
             "label": "MY_DATE"
         },{
             "example": ["30 September, 1971"], 
             "pattern": [{"ENT_TYPE": "DATE", "IS_DIGIT": true}, 
                         {"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
                         {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
-                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true, "shape":"dddd"}],
             "label": "MY_DATE"
         },{
             "example": ["1st day of September, 1971"], 
@@ -28,7 +28,7 @@
                         {"LOWER": "of"}, 
                         {"ENT_TYPE": "DATE", "IS_ALPHA": true}, 
                         { "ORTH": ",", "OP": "*"}, 
-                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true, "shape":"dddd"}],
             "label": "MY_DATE"
         },{
             "example": ["30th day of September, 1971"], 
@@ -50,11 +50,43 @@
             "pattern": [{"IS_ALPHA": true}, 
                         {"SHAPE": "ddxx"}, 
                         {"ENT_TYPE": "DATE", "ORTH": ",", "OP": "*"}, 
-                        {"ENT_TYPE": "DATE", "IS_DIGIT": true}], 
+                        {"ENT_TYPE": "DATE", "IS_DIGIT": true, "SHAPE": "dddd"}],
             "label": "MY_DATE"
         },{
             "example": ["1/1/1971"], 
             "pattern": [{"SHAPE": "d/d/dddd"}], 
+            "label": "MY_DATE"
+        },{
+            "example": ["1-1-1971"],
+            "pattern": [{"SHAPE": "d", "IS_DIGIT": true},
+                        {"ORTH": "-"},
+                        {"SHAPE": "d", "IS_DIGIT": true},
+                        {"ORTH": "-"},
+                        {"SHAPE": "dddd", "IS_DIGIT": true, "ENT_TYPE": "DATE"}],
+            "label": "MY_DATE"
+        },{
+            "example": ["12-12-1971"],
+            "pattern": [{"SHAPE": "dd", "IS_DIGIT": true},
+                        {"IS_PUNCT":true},
+                        {"SHAPE": "dd", "IS_DIGIT": true},
+                        {"IS_PUNCT":true},
+                        {"SHAPE": "dddd", "IS_DIGIT": true, "ENT_TYPE": "DATE"}],
+            "label": "MY_DATE"
+        },{
+            "example": ["1-12-1971"],
+            "pattern": [{"SHAPE": "d", "IS_DIGIT": true},
+                        {"ORTH": "-"},
+                        {"SHAPE": "dd", "IS_DIGIT": true},
+                        {"ORTH": "-"},
+                        {"SHAPE": "dddd", "IS_DIGIT": true, "ENT_TYPE": "DATE"}],
+            "label": "MY_DATE"
+        },{
+            "example": ["12-1-1971"],
+            "pattern": [{"SHAPE": "dd", "IS_DIGIT": true},
+                        {"ORTH": "-"},
+                        {"SHAPE": "d", "IS_DIGIT": true},
+                        {"ORTH": "-"},
+                        {"SHAPE": "dddd", "IS_DIGIT": true, "ENT_TYPE": "DATE"}],
             "label": "MY_DATE"
         },{
             "example": ["10/1/1971"], 

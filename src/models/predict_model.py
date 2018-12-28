@@ -45,14 +45,14 @@ class Predict_Model:
         entity = self.nlp(u''+self.raw_text)
         taj_places = self.predict_Location.predict_Location(entity)
         taj_dates = self.predict_Date.date_Predict(entity)
+        print(taj_dates)
         # removing in prediction of dates
-        # PERCENT, QUANTITY, ORDINAL, 
+        # PERCENT, QUANTITY, ORDINAL,
         for token in entity.ents:
             wrd = token.text.strip()
             label_ = token.label_
-            if label_ == 'DATE' or label_ == 'CARDINAL':
+            if label_ == 'DATE' or label_ == 'CARDINAL' or label_ == 'PERCENT' or label_ == 'QUANTITY' or label_ == 'ORDINAL':
                 continue
-
             if label_ == 'GPE' or label_ == 'FAC':
                 try:
                     plceMatched = False
